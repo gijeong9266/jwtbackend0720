@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import com.ca.finalbackend.request.ArticleRequest;
 import com.ca.finalbackend.response.ApiResponse;
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/article")
